@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Tudor_Cretu_Lab22.props" />
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Tudor_Cretu_Lab22.props" />
+</Project>
