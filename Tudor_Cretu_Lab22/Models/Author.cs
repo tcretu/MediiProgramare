@@ -12,7 +12,17 @@ namespace Tudor_Cretu_Lab22.Models
         [Display(Name = "AuthorLastName")]
         public string LastName { get; set; }
 
+        [Display(Name = "Full Name")]
+        public string FullName
+        {
+            get
+            {
+                return FirstName + " " + LastName;
+            }
+        }
         public ICollection<Book>? Books { get; set; }
+
+
 
 
 

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Tudor_Cretu_Lab22.Data;
 
@@ -11,9 +12,10 @@ using Tudor_Cretu_Lab22.Data;
 namespace Tudor_Cretu_Lab22.Migrations
 {
     [DbContext(typeof(Tudor_Cretu_Lab22Context))]
-    partial class Tudor_Cretu_Lab22ContextModelSnapshot : ModelSnapshot
+    [Migration("20231106113359_Select")]
+    partial class Select
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -19,5 +19,7 @@ namespace Tudor_Cretu_Lab22.Data
         public DbSet<Tudor_Cretu_Lab22.Models.Publisher>? Publisher { get; set; }
 
         public DbSet<Tudor_Cretu_Lab22.Models.Author>? Author { get; set; }
+
+        public DbSet<Tudor_Cretu_Lab22.Models.Category>? Category { get; set; }
     }
 }
